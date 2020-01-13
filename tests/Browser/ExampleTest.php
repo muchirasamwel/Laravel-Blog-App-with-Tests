@@ -62,6 +62,7 @@ class ExampleTest extends DuskTestCase
             $browser->visit('/today')
                 ->assertPathIs('/today')
                 ->assertSee('Bot Generated Title');
+
             dump('Blog Creation Test confirmation Success');
         });
     }
